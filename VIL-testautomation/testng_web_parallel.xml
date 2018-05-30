@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.vil.web.reports.MyExtentListners"/>
+  </listeners>
+  <test thread-count="3" name="Regression_Test_Chrome_1">
+    <parameter name="Browser Name" value="Chrome"/>
+    <classes>
+      <class name="com.vil.web.tests.Module1.VIL_TC_1"/>
+      <class name="com.vil.web.tests.Module1.VIL_TC_3"/>
+      <class name="com.vil.web.tests.Module2.VIL_TC_2"/>
+      <class name="com.vil.web.tests.Module2.VIL_TC_4"/>
+    </classes>
+  </test> <!-- Regression_Test_Chrome_1 -->
+  <test thread-count="3" name="Regression_Test_IE_2">
+    <parameter name="Browser Name" value="IE"/>
+    <classes>
+      <class name="com.vil.web.tests.Module1.VIL_TC_1"/>
+      <class name="com.vil.web.tests.Module1.VIL_TC_3"/>
+      <class name="com.vil.web.tests.Module2.VIL_TC_2"/>
+      <class name="com.vil.web.tests.Module2.VIL_TC_4"/>
+    </classes>
+  </test> <!-- Regression_Test_IE_2 -->
+  <test thread-count="3" name="Regression_Test_Firefox_3">
+    <parameter name="Browser Name" value="Firefox"/>
+    <classes>
+      <class name="com.vil.web.tests.Module1.VIL_TC_1"/>
+      <class name="com.vil.web.tests.Module1.VIL_TC_3"/>
+      <class name="com.vil.web.tests.Module2.VIL_TC_2"/>
+      <class name="com.vil.web.tests.Module2.VIL_TC_4"/>
+    </classes>
+  </test> <!-- Regression_Test_Firefox_3 -->
+</suite> <!-- Suite -->

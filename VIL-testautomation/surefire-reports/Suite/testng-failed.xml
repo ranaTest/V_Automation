@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.vil.web.reports.MyExtentListners"/>
+  </listeners>
+  <test name="SanityTest(failed)">
+    <parameter name="Browser Name" value="chrome"/>
+    <classes>
+      <class name="com.vil.web.tests.postpaid.enquiry.activation.TC_020_PostpaidEnquiryActivation">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="postPaidEnquiryActivation"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.enquiry.activation.TC_020_PostpaidEnquiryActivation -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_087_ServiceDisconnectionVoluntaryChurnRelatedPostp">
+        <methods>
+          <include name="serviceDisconnectionVoluntaryChurnRelatedPostp"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_087_ServiceDisconnectionVoluntaryChurnRelatedPostp -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_079">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="verifyAllSimNotWorking"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="_closeSR"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_079 -->
+      <class name="com.vil.web.tests.postpaid.lead.Test_Automation_231">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="leadToOpportunityNonVodafone"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.lead.Test_Automation_231 -->
+      <class name="com.vil.web.tests.prepaid.complaint.Test_Automation_085">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="NumberOrAccountActivationPrepaidComplaint"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="_closeSR"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.complaint.Test_Automation_085 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_247_PcnAlertComplaintsPostpaidNo">
+        <methods>
+          <include name="PcnAlertComplaintsPostpaidVarification"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="_closeSR"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_247_PcnAlertComplaintsPostpaidNo -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_077">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="verifyStaticIpNotReachable"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_077 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_097_PcnAlertComplaintsPostpaidYes">
+        <methods>
+          <include name="PcnAlertComplaintsPostpaidVarification"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_097_PcnAlertComplaintsPostpaidYes -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_073_BillingAndPaymentCompGSTPostp">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="billingComplaintPostpaidGST"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_073_BillingAndPaymentCompGSTPostp -->
+      <class name="com.vil.web.tests.postpaid.lead.Test_Automation_230">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="closeLeadStatus"/>
+          <include name="DBConnection"/>
+          <include name="leadToOpportunityVodafone"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.lead.Test_Automation_230 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_074_BillingAndPaymentWaiversAndAdjustmentsPostp">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="billingAndPaymentWaiversAndAdjustmentsPostp"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_074_BillingAndPaymentWaiversAndAdjustmentsPostp -->
+      <class name="com.vil.web.tests.postpaid.activation.Postpaid360DegreeVerification">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="verifyPostpaid360DegreeScreen"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.activation.Postpaid360DegreeVerification -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_086">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="NumberOrAccountActivationPostpaidComplaint"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_086 -->
+      <class name="com.vil.web.tests.prepaid.quickactionbtn.TC_064_PushSms">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="pushSmsVarification" invocation-numbers="0"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.quickactionbtn.TC_064_PushSms -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_091_SimReactivationComplaintsPostpaid">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="SimReactivationComplaintsVarification"/>
+          <include name="DBConnection"/>
+          <include name="_closeSR"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_091_SimReactivationComplaintsPostpaid -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_065_NetworkComplaintBOUser">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="closebrowser"/>
+          <include name="networkComplaintPostpaidBoUser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_065_NetworkComplaintBOUser -->
+      <class name="com.vil.web.tests.postpaid.enquiry.activation.TC_401_CallTypeEnquiryForBillingPostp">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="enquiryBillingAndPaymentPostpaid"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.enquiry.activation.TC_401_CallTypeEnquiryForBillingPostp -->
+      <class name="com.vil.web.tests.prepaid.enquiry.activation.TC_021_PrepaidEnquiryActivation">
+        <methods>
+          <include name="enquiryActivationPrepaid"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="_closeSR"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.enquiry.activation.TC_021_PrepaidEnquiryActivation -->
+      <class name="com.vil.web.tests.binocularsearch.Test_Automation_246">
+        <methods>
+          <include name="verifyBinacularSearchFileds"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.binocularsearch.Test_Automation_246 -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_075">
+        <methods>
+          <include name="CreditAndCollectionCLChangeCompaint"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_075 -->
+      <class name="com.vil.web.tests.prepaid.complaint.Test_Automation_084">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="closebrowser"/>
+          <include name="networkVoiceCoverageComplaintPrepaid"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.complaint.Test_Automation_084 -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_078">
+        <methods>
+          <include name="verifyParticularIpNotAccessible"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_078 -->
+      <class name="com.vil.web.tests.postpaid.lead.Test_Automation_229">
+        <methods>
+          <include name="NMNPLeadCreation"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.lead.Test_Automation_229 -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_083">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="NetworkDataConfiguration"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_083 -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_081">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="verifyLinkDownComplaint"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_081 -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_100">
+        <methods>
+          <include name="verifyStockAvailabilityComplaint"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_100 -->
+      <class name="com.vil.web.tests.prepaid.activation.Prepaid360DegreeVerification">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="verifyPrepaid360DegreeScreen"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.activation.Prepaid360DegreeVerification -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_072_BillingAndPaymentComplaintPostpaid">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="_closeSR"/>
+          <include name="balanceTransferIssue"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_072_BillingAndPaymentComplaintPostpaid -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_071_BillingAndPaymentdueToDonorOperator">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="billingComplaintPostpaidPaymentdueToDonorOperator"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_071_BillingAndPaymentdueToDonorOperator -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_089_FailedInteractionsSystemMismatchPostp">
+        <methods>
+          <include name="FailedInteractionsSystemMismatchPostp"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_089_FailedInteractionsSystemMismatchPostp -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_093_FailedInteractionSystemErrorOrDowntimePostp">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="FailedInteractionSystemErrorOrDowntimePostp"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_093_FailedInteractionSystemErrorOrDowntimePostp -->
+      <class name="com.vil.web.tests.postpaid.lead.Test_Automation_228">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="leadCreationForNonVodafone"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.lead.Test_Automation_228 -->
+      <class name="com.vil.web.tests.postpaid.activation.Test_Automation_001">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="postPaidCustomerCreation" invocation-numbers="0"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.activation.Test_Automation_001 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_109_ServicesServiceissueComplaintsLegalPostpaid">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="ServiceissueComplaintsLegalPostpaidVarification"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_109_ServicesServiceissueComplaintsLegalPostpaid -->
+      <class name="com.vil.web.tests.prepaid.activation.Test_Automation_005">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="prepaidCustomerCreation" invocation-numbers="0"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.activation.Test_Automation_005 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_113_BillingPaymentUpdateComplaintsPostpaid">
+        <methods>
+          <include name="billingPaymentUpdatePostpaidVarification"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_113_BillingPaymentUpdateComplaintsPostpaid -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_082">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="SeperationMergerIssueComplaint"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_082 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_066_NetworkComplaintFLAUser">
+        <methods>
+          <include name="networkComplaintPostpaidBFLAUser"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+          <include name="_closeSR"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_066_NetworkComplaintFLAUser -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_099">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="verifyBenefitNotReceivedComplaint"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_099 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_095_ServiceissueCustomerFeedbackComplaintsPostpaid">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="ServiceissueCustomerFeedbackComplaintsVarification"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_095_ServiceissueCustomerFeedbackComplaintsPostpaid -->
+      <class name="com.vil.web.tests.postpaid.lead.Test_Automation_227">
+        <methods>
+          <include name="leadCreationForVodafone"/>
+          <include name="closeLeadStatus"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.lead.Test_Automation_227 -->
+      <class name="com.vil.web.tests.prepaid.quickactionbtn.TC_406_PushOTA">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="pushOtaVarification" invocation-numbers="0"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.quickactionbtn.TC_406_PushOTA -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_069_BillingAndPaymentCompPostpforDepositIssue">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="closebrowser"/>
+          <include name="billingComplaintPostpforDepositIssue"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_069_BillingAndPaymentCompPostpforDepositIssue -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_076">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="CreditAndCollectionVerificationIssueComplaint"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_076 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_092_DeviceRelatedComplaintsPostpaid">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="deviceRelatedComplaintsVarification"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_092_DeviceRelatedComplaintsPostpaid -->
+      <class name="com.vil.web.tests.prepaid.enquiry.activation.TC_261_PrepaidBalanceAndRechargeEnquiry">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="balanceAndRechargeEnquiryForPrepaid"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.enquiry.activation.TC_261_PrepaidBalanceAndRechargeEnquiry -->
+      <class name="com.vil.web.tests.prepaid.complaint.TC_110_BalanceRechargeComplaintsPrepaid">
+        <methods>
+          <include name="balanceRechargeSegmentedComplaintsVarification"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+          <include name="_closeSR"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.complaint.TC_110_BalanceRechargeComplaintsPrepaid -->
+      <class name="com.vil.web.tests.prepaid.complaint.TC_111_BalanceRechargeSegmentedComplaintsPrepaid">
+        <methods>
+          <include name="balanceRechargeSegmentedComplaintsVarification"/>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.prepaid.complaint.TC_111_BalanceRechargeSegmentedComplaintsPrepaid -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_104">
+        <methods>
+          <include name="verifyIncorrectPlanOrOffers"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="_closeSR"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_104 -->
+      <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_098">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="_closeSR"/>
+          <include name="DBConnection"/>
+          <include name="verifyNeverRequestedComplaints"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.Test_Automation_098 -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_063_NetworkComplaintPostpaid">
+        <methods>
+          <include name="networkComplaintPostpaid"/>
+          <include name="closebrowser"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="_closeSR"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_063_NetworkComplaintPostpaid -->
+      <class name="com.vil.web.tests.postpaid.complaint.TC_096_FailedInteractionsSelfHelpErrorOrAccessPostP">
+        <methods>
+          <include name="_closeSR"/>
+          <include name="closebrowser"/>
+          <include name="failedInteractionsSelfHelpErrorOrAccessPostP"/>
+          <include name="DBConnection"/>
+          <include name="killBrowserProcess"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.vil.web.tests.postpaid.complaint.TC_096_FailedInteractionsSelfHelpErrorOrAccessPostP -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

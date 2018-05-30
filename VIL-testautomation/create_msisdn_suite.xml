@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+	<parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+	<listeners>
+		<listener class-name="com.vil.web.reports.MyExtentListners" />
+	</listeners>
+	<test name="Sanity_Test">
+		<parameter name="Browser Name" value="Chrome" />
+		<classes>
+			<!-- <class
+				name="com.vil.web.tests.postpaid.activation.TC_203_PostpaidCustomerCreationData" /> -->
+			<class
+				name="com.vil.web.tests.prepaid.activation.TC_071_PrepaidCustomerCreationData" />
+		</classes>
+	</test> <!-- Regression_Test -->
+</suite> <!-- Suite -->

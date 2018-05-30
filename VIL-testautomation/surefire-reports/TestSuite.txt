@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 138, Failures: 8, Errors: 0, Skipped: 130, Time elapsed: 64.108 sec <<< FAILURE! - in TestSuite
+pushOtaVarification(com.vil.web.tests.prepaid.quickactionbtn.TC_406_PushOTA)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.prepaid.quickactionbtn.TC_406_PushOTA.pushOtaVarification(TC_406_PushOTA.java:23)
+
+postPaidCustomerCreation(com.vil.web.tests.postpaid.activation.Test_Automation_001)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.postpaid.activation.Test_Automation_001.postPaidCustomerCreation(Test_Automation_001.java:26)
+
+pushSmsVarification(com.vil.web.tests.prepaid.quickactionbtn.TC_064_PushSms)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.prepaid.quickactionbtn.TC_064_PushSms.pushSmsVarification(TC_064_PushSms.java:33)
+
+_closeSR(com.vil.web.tests.postpaid.enquiry.activation.TC_401_CallTypeEnquiryForBillingPostp)  Time elapsed: 6.811 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.postpaid.enquiry.activation.TC_401_CallTypeEnquiryForBillingPostp._closeSR(TC_401_CallTypeEnquiryForBillingPostp.java:20)
+
+prepaidCustomerCreation(com.vil.web.tests.prepaid.activation.Test_Automation_005)  Time elapsed: 0.027 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.prepaid.activation.Test_Automation_005.prepaidCustomerCreation(Test_Automation_005.java:24)
+
+_closeSR(com.vil.web.tests.postpaid.complaint.TC_247_PcnAlertComplaintsPostpaidNo)  Time elapsed: 8.586 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.postpaid.complaint.TC_247_PcnAlertComplaintsPostpaidNo._closeSR(TC_247_PcnAlertComplaintsPostpaidNo.java:25)
+
+_closeSR(com.vil.web.tests.postpaid.complaint.Test_Automation_077)  Time elapsed: 15.52 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.vil.web.tests.postpaid.complaint.Test_Automation_077._closeSR(Test_Automation_077.java:25)
+
+browserLaunch(com.vil.web.tests.postpaid.complaint.TC_109_ServicesServiceissueComplaintsLegalPostpaid)  Time elapsed: 19.208 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from disconnected: received Inspector.detached event
+  (Session info: chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.09 seconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INPUCZPC00003', ip: '10.14.129.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: ChromeDriver
+

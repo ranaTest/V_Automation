@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" preserve-order="true">
+	<parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+	<listeners>
+		<listener class-name="com.vil.web.reports.MyExtentListners" />
+	</listeners>
+	<test name="SanityTest" preserve-order="true">
+		<parameter name="Browser Name" value="chrome" />
+		<classes>
+			<!-- Srinivas -->
+
+		<!--<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_077" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_100" />
+			<class name="com.vil.web.tests.postpaid.activation.Test_Automation_001" />
+			<class name="com.vil.web.tests.prepaid.activation.Test_Automation_005" />
+
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_078" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_079" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_081" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_098" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_099" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_100" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_104" />
+			<class name="com.vil.web.tests.binocularsearch.Test_Automation_246" />
+			<class name="com.vil.web.tests.postpaid.lead.Test_Automation_227" />
+			<class name="com.vil.web.tests.postpaid.lead.Test_Automation_228" />
+			<class name="com.vil.web.tests.postpaid.lead.Test_Automation_229" />
+			<class name="com.vil.web.tests.postpaid.lead.Test_Automation_230" />
+			<class name="com.vil.web.tests.postpaid.lead.Test_Automation_231" />
+			<class name="com.vil.web.tests.postpaid.activation.Postpaid360DegreeVerification" />
+			<class name="com.vil.web.tests.prepaid.activation.Prepaid360DegreeVerification" /> -->
+
+			
+			<!-- Arushi -->
+
+			<!--<class name="com.vil.web.tests.postpaid.enquiry.activation.TC_020_PostpaidEnquiryActivation" />
+			<class name="com.vil.web.tests.postpaid.enquiry.activation.TC_401_CallTypeEnquiryForBillingPostp" />
+			<class name="com.vil.web.tests.prepaid.enquiry.activation.TC_021_PrepaidEnquiryActivation" />
+			<class name="com.vil.web.tests.prepaid.enquiry.activation.TC_261_PrepaidBalanceAndRechargeEnquiry" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_063_NetworkComplaintPostpaid" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_065_NetworkComplaintBOUser" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_066_NetworkComplaintFLAUser" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_071_BillingAndPaymentdueToDonorOperator" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_069_BillingAndPaymentCompPostpforDepositIssue" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_072_BillingAndPaymentComplaintPostpaid" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_073_BillingAndPaymentCompGSTPostp" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_074_BillingAndPaymentWaiversAndAdjustmentsPostp" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_087_ServiceDisconnectionVoluntaryChurnRelatedPostp" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_089_FailedInteractionsSystemMismatchPostp" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_093_FailedInteractionSystemErrorOrDowntimePostp" />
+			<class name="com.vil.web.tests.postpaid.complaint.TC_096_FailedInteractionsSelfHelpErrorOrAccessPostP" />-->
+
+			<!-- Shruthi -->
+
+			<!-- <class name="com.vil.web.tests.postpaid.complaint.Test_Automation_075" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_076" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_082" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_083" />
+			<class name="com.vil.web.tests.prepaid.complaint.Test_Automation_084" />
+			<class name="com.vil.web.tests.prepaid.complaint.Test_Automation_085" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_086" />-->
+
+			
+	<!-- Rana ALL TEST XML-->
+			<!--<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_097" />
+			<class name="com.vil.web.tests.prepaid.quickactionbtn.Test_Automation_026" />
+			<class name="com.vil.web.tests.prepaid.quickactionbtn.Test_Automation_027" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_247" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_109" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_095" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_092" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_091" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_247" />
+			<class name="com.vil.web.tests.prepaid.complaint.Test_Automation_110" />
+			<class name="com.vil.web.tests.prepaid.complaint.Test_Automation_111" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_097" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_113" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_112" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_107" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_108" />
+			<class name="com.vil.web.tests.prepaid.quickactionbtn.Test_Automation_032"/>
+			<class name="com.vil.web.tests.prepaid.quickactionbtn.Test_Automation_033"/>
+			<class name="com.vil.web.tests.postpaid.addresschange.Test_Automation_128"/>
+			<class name="com.vil.web.tests.postpaid.addresschange.Test_Automation_159"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_193"/>			
+			<class name="com.vil.web.tests.prepaid.fetchanddisplay.Test_Automation_194"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_202"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_203"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_207"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_208"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_215"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_219"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_220"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_221"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_188"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_197"/>
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_213"/>-->	
+			
+			
+<!-- Rana Working TEST XML -->		
+<!--		<class name="com.vil.web.tests.prepaid.quickactionbtn.Test_Automation_026" />
+			<class name="com.vil.web.tests.prepaid.quickactionbtn.Test_Automation_027" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_247" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_247" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_112" />
+			<class name="com.vil.web.tests.prepaid.complaint.Test_Automation_111" />
+			<class name="com.vil.web.tests.prepaid.complaint.Test_Automation_110" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_109" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_097" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_095" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_092" />
+			<class name="com.vil.web.tests.postpaid.complaint.Test_Automation_091" />-->
+			
+			<class name="com.vil.web.tests.postpaid.fetchanddisplay.Test_Automation_216"/>
+			
+			
+			
+			
+		</classes>
+	</test> <!-- Regression_Test -->
+</suite> <!-- Suite -->
